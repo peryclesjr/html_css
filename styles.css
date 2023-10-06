@@ -62,4 +62,10 @@
         float: left;
         }
 
-   
+    /* Example of using pseudo-class
+        In this example you can pass mouse over the item list
+        and chenge a visual
+    */
+   li:hover{
+    background-color: brown;
+   }
