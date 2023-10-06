@@ -1,0 +1,65 @@
+    /* here a little css file to understand de concepts */
+    .cavalos_marinhos{
+
+        color: rgb(55, 0, 255);
+    }
+    img{
+        width: 100px;
+    }
+    .paragrafos{
+        background-color: rgb(240,240,240);
+        padding-left: 1rem;
+        padding-top: 0.0625rem;
+        width: 80%;
+        /* here you can test for learning: x-small, small, smaller..  */
+        font-size:large; 
+
+    }
+    /*
+    just customizations about font
+    */
+    .paragrafos h3{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+
+
+    @counter-style thumbs {
+        system: cyclic;
+        symbols: "\1F44D";
+        suffix: " ";
+      }
+      
+      ul {
+        list-style: thumbs;
+      }
+
+    figure {
+        display: inline-block;
+        text-align: left; /* ou 'center' se você também quiser o texto centralizado */
+        width: auto;
+    }
+    
+    figure img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    figure figcaption {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cavalo_image{
+        margin-right: 10px; /*margin ajust right for make a little space between aimge and text*/
+        /* sizes of image */
+        width: 50px; 
+        height: 50px;
+        /* float is used to bring an  */
+        float: left;
+        }
+
+   
