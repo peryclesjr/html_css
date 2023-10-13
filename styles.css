@@ -26,6 +26,9 @@
 
 
 
+    /*@counter-style is used to define counter styles that are not part of the predefined set of styles.
+     more information look at : https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style
+     */
     @counter-style thumbs {
         system: cyclic;
         symbols: "\1F44D";
