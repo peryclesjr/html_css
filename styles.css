@@ -2,6 +2,9 @@
     .cavalos_marinhos{
 
         color: rgb(55, 0, 255);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: wave aqua;
     }
     img{
         width: 6.25rem; /* equivalent to 100px */

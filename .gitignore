@@ -1,0 +1,12 @@
+# Default ignored files
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Arquivos de saída
+out/
+
+# Arquivos compilados
+*.class
